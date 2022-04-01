@@ -1,0 +1,29 @@
+h3 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(194, 223, 194);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+  
+  h1 {
+    color: rgb(17, 191, 235);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100px;
+    font-weight: 200;
+    text-align: center;
+  }
+
+  img {
+    height: auto;
+    width: 350px;
+    display: block;
+    margin: auto;
+  }
+
+  * {
+    color: red;
+  }
+
+  body {
+    background-color: grey;
+  }
