@@ -1,0 +1,39 @@
+body {
+    color: crimson;
+    text-align: center;
+    background-color: coral ;
+}
+
+h1 {
+    font-size: 50px;
+    font-style: italic;
+    font-weight: 700;
+}
+
+img {
+    height: auto;
+    width: 500px;
+    display: block;
+    margin: auto;
+}
+
+.entrada {
+    font-size: 30px;
+    color: white;
+}
+
+h3 {
+    color: rgb(168, 21, 21);
+    font-style: oblique;
+    font-size: 25px;
+}
+
+li {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.una {
+    font-size: 35px;
+}
