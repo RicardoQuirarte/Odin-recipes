@@ -1,0 +1,31 @@
+body {
+    background-color: goldenrod;
+    text-align: center;
+}
+
+h1 {
+    font-size: 35px;
+    color: rgba(15, 163, 231, 0.562);
+}
+
+.nope {
+    color: aliceblue;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 900;
+}
+
+li {
+    color: darkmagenta;
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: mediumspringgreen;
+}
+
+ol {
+    color: green;
+}
