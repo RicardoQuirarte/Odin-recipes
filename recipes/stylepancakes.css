@@ -1,8 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
 h1 {
     color: rgb(194, 167, 132);
     text-align: center;
     font-size: 45px;
     font-weight: 100;
+    border-bottom: 2px;
+    margin: 50px;
+    border-style: double;
+    border-width: thick;
+    border-color: red transparent green transparent;
 }
 
 img {
@@ -23,6 +32,12 @@ h3 {
     font-size: 35px;
     font-style: italic;
     font-weight: 900;
+    margin: 50px;
+    padding: 25px;
+    padding-right: 10em;
+    border-style: double;
+    border-width: thick;
+    border-color: rgb(255, 255, 255) transparent rgb(0, 0, 0) transparent;
 }
 
 .entrada {
@@ -31,6 +46,12 @@ h3 {
     font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 600;
+    margin: 50px;
+    margin-bottom: 5px;
+}
+
+.entrada.pies {
+    margin-top: 5px;
 }
 
 p {
@@ -43,4 +64,9 @@ li {
     color: rgb(216, 136, 17);
     font-size: 25px;
     text-align: center;
+    margin: 10px;
+}
+
+ul {
+    margin: ;
 }
