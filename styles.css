@@ -1,29 +1,49 @@
-h3 {
-    text-align: center;
-    color: rgb(255, 255, 255);
-    background-color: rgb(194, 223, 194);
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+* {
+  color: red;
 }
-  
-  h1 {
-    color: rgb(17, 191, 235);
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 100px;
-    font-weight: 200;
-    text-align: center;
+
+body {
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+}
+ 
+h1 {
+  color: rgb(17, 191, 235);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 100px;
+  font-weight: 200;
+  margin: 30px;
+}
+
+image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #eee;
   }
 
-  img {
-    height: auto;
-    width: 350px;
-    display: block;
-    margin: auto;
-  }
-
-  * {
-    color: red;
-  }
-
-  body {
-    background-color: grey;
+a {
+  text-decoration: none;
   }
